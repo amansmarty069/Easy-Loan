@@ -1,0 +1,64 @@
+/*HTML base css*/
+.navbar{
+  background-color: #0000007c;
+  border-radius:  20px;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+  font-size: 1rem;
+  font-family: consolas;
+}
+.navbar ul{
+  float: right;
+  overflow: auto;
+}
+.navbar a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover{
+  color: #00FFFF;
+}
+.navbar a:active{
+  color: #32CD32
+}
+
+/*Main csss*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/*REAL CSS STARTS here*/
+/*Global properties starts here*/
+html{font-size:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.clear:after{clear:both;content:" ";font-size:0;visibility:hidden;display:block;height:0;}
+*, *::before,*::after{box-sizing:inherit;-webkit-box-sizing:inherit;-moz-box-sizing:inherit;}
+.banner{position:absolute;top:0;z-index: -1;max-width: 1080px;width: 100%;}
+header, nav{max-width: 1080px;margin:0 auto;}
+body{background:#b5c191;margin:0; padding:0;}
+.bannerContainer{margin:0 auto;}
+aside{z-index: 1; float: right;}
+form{background:#e6eef5b6;padding:2vh;margin-right: 1vh;border-radius:15px;margin-top: 5vh;}
+
+.features{background:#f2f2f2; margin:5vh;border-radius: 3vh;padding-bottom: 1vh;}
+.features h3{padding: 3vh;text-align: center;}
+.features p{text-align: center;}
+.features ul {
+  /* for IE below version 7 use `width` instead of `max-width` */
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+footer{background:#3a3a3a;width: 100%;margin:0;padding: 0;}
+.footerPara{text-align: center;margin:0;padding: 2vh;font-size:1.2rem}
+.footerp{text-align:left;margin:0;padding:3vh;font-size:1.2rem}
+.critera{padding:1vh;}
+.spanStar{text-align: center;display: block;}
+.centerPic{display: block;margin-left: auto;margin-right: auto;width: 50%;}
